@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Assignment-3</title>
-    <link rel="shortcut icon" href="images/icon.jpg" type="image/x-icon">
+    <link rel="shortcut icon" href="images/icon.jpg">
 
     <!-- Daisy-UI -->
     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.6.0/dist/full.min.css" rel="stylesheet" type="text/css" />
@@ -26,7 +26,7 @@
 </head>
 <body>
 
-    <header  class="font-manrope container mx-auto lg:px-24 px-8 my-10 border-solid border-black border-4">
+    <header  class="font-manrope container mx-auto lg:px-24 px-8 my-10">
         <div class="navbar bg-base-100">
             <div class="navbar-start">
               <div class="dropdown">
@@ -90,7 +90,7 @@
             </section> 
     </header>
 
-    <main  class="font-manrope container mx-auto lg:px-24 px-8 my-10 border-solid border-black border-4">
+    <main  class="font-manrope container mx-auto lg:px-24 px-8 my-10">
       <section class="mt-10 lg:mt-24 container mx-auto lg:px-1.5 px-8 my-8">
        <div class="mb-10">
         <h3 class="font-bold text-3xl text-center pb-5">Professional Hockeys Club</h3>
@@ -349,7 +349,7 @@
          <img class="object-cover w-[500px] h-[340px] xl:w-[100%] xl:h-[100%] rounded-xl" src="Images/11.png" alt="">
         </div>
      </div>
-      <div class=" xl:w-[50%] xl:ml-5 xl:pt-5">
+      <div class="xl:w-[50%] xl:ml-5 xl:pt-5">
         <!-- 1st Category -->
         <div class="collapse collapse-plus bg-base-200">
           <input type="radio" name="my-accordion-3" checked="checked" /> 
@@ -500,43 +500,52 @@
 
 
     <footer class="font-manrope footer p-10 bg-[#131318] text-base-content">
-      <div class="xl:w-[30%] text-white xl:ml-28">
-        <h2 class="font-extrabold text-2xl">Get In Touch</h2>
-        <p >a piece of text, such as a page number or a title, that appears at the bottom of every page.</p>
-       <div class="flex xl:gap-5 xl:items-center">
-        <i class="fa-solid fa-envelope text-red-500"></i><p>hockeys@support.com</p>
-       </div>
-       <div class="flex xl:gap-5 xl:items-center">
-        <i class="fa-solid fa-phone  text-red-500"></i>
-        <p>(+62) 123-321-543</p>
-       </div>
+      <div class="w-[80%] xl:w-[80%] text-white ml-20 xl:ml-28">
+        <div class=" text-center xl:text-justify">
+          <h2 class="font-extrabold text-2xl pb-2">Get In Touch</h2>
+          <p class="pb-2">a piece of text, such as a page number or a title, that appears at the bottom of every page.</p>
+        </div>
+<div >
+  <div class="flex gap-3 xl:gap-3 items-center text-center xl:text-justify mb-2  ml-28 xl:ml-0">
+    <i class="fa-solid fa-envelope text-red-500"></i><p>hockeys@support.com</p>
+   </div>
+   <div class="flex gap-3 xl:gap-3 items-center text-center ml-32 xl:ml-0">
+    <i class="fa-solid fa-phone  text-red-500"></i>
+    <p>(+62) 123-321-543</p>
+   </div>
+</div>
       </div>
 
 
+<div class="grid grid-cols-2 text-center xl:text-justify ml-32 gap-28 xl:flex xl:gap-32 xl:mr-24">
   <nav class="text-white">
     <header class="footer-title font-extrabold text-xl">Services</header> 
-    <a class="link link-hover">Academy</a>
-    <a class="link link-hover ">Group Lesson</a>
-    <a class="link link-hover ">Private Lesson</a>
-    <a class="link link-hover ">Hockeys for kids</a>
+    <a class="link link-hover">Academy</a><br><br>
+    <a class="link link-hover ">Group Lesson</a> <br><br>
+    <a class="link link-hover ">Private Lesson</a> <br><br>
+    <a class="link link-hover ">Hockeys for kids</a><br><br>
     <a class="link link-hover">Hockeys for Adult</a>
   </nav> 
 
   <nav class="text-white">
     <header class="footer-title font-extrabold text-xl">Support</header> 
-    <a class="link link-hover">Help Center</a>
-    <a class="link link-hover">FAQ</a>
-    <a class="link link-hover">Contact Us</a>
+    <a class="link link-hover">Help Center</a><br><br>
+    <a class="link link-hover">FAQ</a><br><br>
+    <a class="link link-hover">Contact Us</a><br><br>
+    <a class="link link-hover">Ticket Support</a>
   </nav>
-
+</div>
+<div class=" text-center ml-64 xl:ml-0 xl:mr-24 xl:text-justify">
   <nav class="text-white">
     <header class="footer-title font-extrabold text-xl">Company</header> 
-    <a class="link link-hover">About us</a>
-    <a class="link link-hover">Leadership</a>
-    <a class="link link-hover">Careers</a>
-    <a class="link link-hover">News & Article</a>
+    <a class="link link-hover">About us</a><br><br>
+    <a class="link link-hover">Leadership</a><br><br>
+    <a class="link link-hover">Careers</a> <br><br>
+    <a class="link link-hover">News & Article</a> <br><br>
     <a class="link link-hover">Legal Notice</a>
   </nav> 
+</div>
+
 
     </footer>
 </body>
